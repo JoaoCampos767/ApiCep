@@ -4,7 +4,7 @@ import Grid from "@mui/material/Grid";
 import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
 
-export default function App() {
+export default function Text() {
   return (
     <>
       <Grid

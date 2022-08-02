@@ -1,0 +1,16 @@
+.MuiGrid-root-container{
+    margin-top: 200px;
+}
+
+.MuiInputBase-input{
+    width: 500px;
+}
+
+.MuiGrid-root-container-secund{
+    margin-top: 20px;
+    margin-left: 13px;
+}
+
+.MuiButtonBase-root{
+    width: 100px;
+}

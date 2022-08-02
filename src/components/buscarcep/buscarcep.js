@@ -1,19 +1,20 @@
 import React from "react";
-import "./textfield.css";
+import "./buscarcep.css";
 import Grid from "@mui/material/Grid";
 import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
 
-export default function App() {
+export default function Busca() {
   return (
     <>
+      {/* <h1>Buscar CEP</h1> */}
       <Grid
         container
         className="MuiGrid-root-container"
         justifyContent="center"
       >
-        <Grid xs={6} display="flex" justifyContent="center">
-          <Grid item xs={4}>
+        <Grid className="MuiInputBase-input">
+          <Grid item>
             <TextField id="buscar-text" label="Buscar Cep" variant="outlined" />
           </Grid>
         </Grid>
@@ -24,8 +25,8 @@ export default function App() {
         className="MuiGrid-root-container-secund"
         justifyContent="center"
       >
-        <Grid xs={6} display="flex" justifyContent="center">
-          <Grid item xs={4}>
+        <Grid className="MuiButtonBase-root">
+          <Grid item>
             <Button variant="contained">Buscar</Button>
           </Grid>
         </Grid>
