@@ -7,15 +7,14 @@ import Button from "@mui/material/Button";
 export default function Busca() {
   return (
     <>
-      {/* <h1>Buscar CEP</h1> */}
       <Grid
         container
         className="MuiGrid-root-container"
         justifyContent="center"
       >
-        <Grid className="MuiInputBase-input">
+        <Grid className="MuiInputBase-input" display="flex" justifyContent="space-between">
           <Grid item>
-            <TextField id="buscar-text" label="Buscar Cep" variant="outlined" />
+            <TextField className="MuiInputBase-input-text" id="buscar-text" label="Buscar Cep" variant="outlined" />
           </Grid>
         </Grid>
       </Grid>

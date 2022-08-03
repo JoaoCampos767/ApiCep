@@ -87,18 +87,6 @@ export default function Text() {
           </Grid>
         </Grid>
       </Grid>
-
-      <Grid
-        container
-        className="MuiGrid-root-container-fifth"
-        justifyContent="center"
-      >
-        <Grid xs={6} display="flex" justifyContent="center">
-          <Grid item xs={4}>
-            <Button variant="contained">Buscar</Button>
-          </Grid>
-        </Grid>
-      </Grid>
     </>
   );
 }

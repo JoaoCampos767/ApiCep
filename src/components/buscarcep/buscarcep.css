@@ -6,9 +6,12 @@
     width: 500px;
 }
 
+.MuiInputBase-input-text{
+    width: 500px;
+}
+
 .MuiGrid-root-container-secund{
     margin-top: 20px;
-    margin-left: 13px;
 }
 
 .MuiButtonBase-root{
